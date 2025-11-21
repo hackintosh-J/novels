@@ -1,0 +1,81 @@
+:root {
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Merriweather', 'Georgia', serif;
+  --font-mono: 'Fira Code', monospace;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 300ms ease;
+  --transition-slow: 500ms ease;
+
+  /* Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-full: 9999px;
+}
+
+/* Light Theme (Default) */
+:root, [data-theme="light"] {
+  --color-bg: #ffffff;
+  --color-bg-secondary: #f9fafb;
+  --color-bg-tertiary: #f3f4f6;
+  
+  --color-text: #111827;
+  --color-text-secondary: #4b5563;
+  --color-text-tertiary: #9ca3af;
+
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-primary-text: #ffffff;
+
+  --color-border: #e5e7eb;
+  --color-border-hover: #d1d5db;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --color-bg: #0a0a0a;
+  --color-bg-secondary: #171717;
+  --color-bg-tertiary: #262626;
+  
+  --color-text: #f9fafb;
+  --color-text-secondary: #d1d5db;
+  --color-text-tertiary: #9ca3af;
+
+  --color-primary: #3b82f6;
+  --color-primary-hover: #60a5fa;
+  --color-primary-text: #ffffff;
+
+  --color-border: #262626;
+  --color-border-hover: #404040;
+}
+
+/* Sepia Theme (Reading Mode) */
+[data-theme="sepia"] {
+  --color-bg: #f8f1e3;
+  --color-bg-secondary: #efe6d5;
+  --color-bg-tertiary: #e3d8c4;
+  
+  --color-text: #433422;
+  --color-text-secondary: #5c4b37;
+  --color-text-tertiary: #8a7660;
+
+  --color-primary: #a67c52;
+  --color-primary-hover: #8c6b46;
+  --color-primary-text: #ffffff;
+
+  --color-border: #dccab1;
+  --color-border-hover: #d1bea2;
+}

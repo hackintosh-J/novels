@@ -1,0 +1,29 @@
+{
+    "novel": {
+        "id": "sample-novel-1",
+        "title": "The Cyberpunk Chronicles",
+        "author": "Neo Writer",
+        "description": "In a future where neon lights never fade, one hacker discovers a secret that could change everything.",
+        "coverUrl": "https://images.unsplash.com/photo-1515630278258-407f66498911?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3liZXJwdW5rfGVufDB8fDB8fHww",
+        "tags": [
+            "Sci-Fi",
+            "Cyberpunk",
+            "Action"
+        ],
+        "createdAt": "2023-10-27T10:00:00Z",
+        "updatedAt": "2023-10-27T10:00:00Z",
+        "chapterCount": 5
+    },
+    "chapters": [
+        {
+            "id": "chapter-1",
+            "title": "Chapter 1: The Awakening",
+            "order": 1
+        },
+        {
+            "id": "chapter-2",
+            "title": "Chapter 2: The Network",
+            "order": 2
+        }
+    ]
+}

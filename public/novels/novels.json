@@ -1,0 +1,32 @@
+[
+    {
+        "id": "sample-novel-1",
+        "title": "The Cyberpunk Chronicles",
+        "author": "Neo Writer",
+        "description": "In a future where neon lights never fade, one hacker discovers a secret that could change everything.",
+        "coverUrl": "https://images.unsplash.com/photo-1515630278258-407f66498911?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3liZXJwdW5rfGVufDB8fDB8fHww",
+        "tags": [
+            "Sci-Fi",
+            "Cyberpunk",
+            "Action"
+        ],
+        "createdAt": "2023-10-27T10:00:00Z",
+        "updatedAt": "2023-10-27T10:00:00Z",
+        "chapterCount": 5
+    },
+    {
+        "id": "sample-novel-2",
+        "title": "Echoes of the Old World",
+        "author": "Jane Doe",
+        "description": "A fantasy epic about a lost civilization and the magic they left behind.",
+        "coverUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFudGFzeXxlbnwwfHwwfHx8MA%3D%3D",
+        "tags": [
+            "Fantasy",
+            "Adventure",
+            "Magic"
+        ],
+        "createdAt": "2023-10-26T15:30:00Z",
+        "updatedAt": "2023-10-26T15:30:00Z",
+        "chapterCount": 12
+    }
+]
