@@ -24,7 +24,7 @@ const AnimatedRoutes = () => {
 function App() {
   return (
     <ThemeProvider>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <Layout>
           <AnimatedRoutes />
         </Layout>
