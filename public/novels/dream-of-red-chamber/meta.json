@@ -1,0 +1,30 @@
+{
+    "novel": {
+        "id": "dream-of-red-chamber",
+        "title": "红楼梦",
+        "author": "曹雪芹",
+        "description": "中国古典四大名著之首，清代作家曹雪芹创作的章回体长篇小说。",
+        "coverUrl": "https://images.unsplash.com/photo-1535905557558-afc4877a26fc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hpbmVzZSUyMHRyYWRpdGlvbmFsfGVufDB8fDB8fHww",
+        "tags": [
+            "古典",
+            "名著",
+            "爱情",
+            "悲剧"
+        ],
+        "createdAt": "2023-10-27T10:00:00Z",
+        "updatedAt": "2023-10-27T10:00:00Z",
+        "chapterCount": 120
+    },
+    "chapters": [
+        {
+            "id": "chapter-1",
+            "title": "第一回 甄士隐梦幻识通灵 贾雨村风尘怀闺秀",
+            "order": 1
+        },
+        {
+            "id": "chapter-2",
+            "title": "第二回 贾夫人仙逝扬州城 冷子兴演说荣国府",
+            "order": 2
+        }
+    ]
+}

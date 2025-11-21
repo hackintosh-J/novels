@@ -1,32 +1,33 @@
 [
     {
-        "id": "sample-novel-1",
-        "title": "The Cyberpunk Chronicles",
-        "author": "Neo Writer",
-        "description": "In a future where neon lights never fade, one hacker discovers a secret that could change everything.",
-        "coverUrl": "https://images.unsplash.com/photo-1515630278258-407f66498911?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3liZXJwdW5rfGVufDB8fDB8fHww",
+        "id": "dream-of-red-chamber",
+        "title": "红楼梦",
+        "author": "曹雪芹",
+        "description": "中国古典四大名著之首，清代作家曹雪芹创作的章回体长篇小说。以贾、史、王、薛四大家族的兴衰为背景，以大观园为舞台，讲述了贾宝玉、林黛玉、薛宝钗的爱情婚姻悲剧。",
+        "coverUrl": "https://images.unsplash.com/photo-1535905557558-afc4877a26fc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hpbmVzZSUyMHRyYWRpdGlvbmFsfGVufDB8fDB8fHww",
         "tags": [
-            "Sci-Fi",
-            "Cyberpunk",
-            "Action"
+            "古典",
+            "名著",
+            "爱情",
+            "悲剧"
         ],
         "createdAt": "2023-10-27T10:00:00Z",
         "updatedAt": "2023-10-27T10:00:00Z",
-        "chapterCount": 5
+        "chapterCount": 120
     },
     {
-        "id": "sample-novel-2",
-        "title": "Echoes of the Old World",
-        "author": "Jane Doe",
-        "description": "A fantasy epic about a lost civilization and the magic they left behind.",
-        "coverUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFudGFzeXxlbnwwfHwwfHx8MA%3D%3D",
+        "id": "three-body-problem",
+        "title": "三体",
+        "author": "刘慈欣",
+        "description": "文化大革命如火如荼进行的同时，军方探寻外星文明的绝秘计划“红岸工程”取得了突破性进展...",
+        "coverUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dW5pdmVyc2V8ZW58MHx8MHx8fDA%3D",
         "tags": [
-            "Fantasy",
-            "Adventure",
-            "Magic"
+            "科幻",
+            "硬科幻",
+            "雨果奖"
         ],
         "createdAt": "2023-10-26T15:30:00Z",
         "updatedAt": "2023-10-26T15:30:00Z",
-        "chapterCount": 12
+        "chapterCount": 3
     }
 ]

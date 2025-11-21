@@ -63,7 +63,10 @@ export const Reader: React.FC = () => {
                 borderRadius: 'var(--radius-md)',
                 position: 'sticky',
                 top: '80px',
-                zIndex: 5
+                zIndex: 5,
+                backdropFilter: 'blur(10px)',
+                WebkitBackdropFilter: 'blur(10px)',
+                border: '1px solid var(--glass-border)'
             }}>
                 <Link to="/" className="btn btn-ghost" title="Back to Library">
                     <ChevronLeft size={20} /> Library
@@ -101,12 +104,28 @@ export const Reader: React.FC = () => {
             {/* Content */}
             <article style={{
                 fontSize: `${fontSize}px`,
-                lineHeight: '1.8',
+                lineHeight: '2',
                 fontFamily: 'var(--font-serif)',
-                marginBottom: 'var(--space-12)'
-            }}>
+                marginBottom: 'var(--space-16)',
+                textAlign: 'justify',
+                maxWidth: '100%',
+                overflowWrap: 'break-word'
+            }} className="reader-content">
                 <div dangerouslySetInnerHTML={{ __html: chapter.content }} />
             </article>
+
+            <style>{`
+        .reader-content p {
+          margin-bottom: 1.5em;
+          text-indent: 2em;
+        }
+        .reader-content h1, .reader-content h2, .reader-content h3 {
+          margin-top: 2em;
+          margin-bottom: 1em;
+          font-weight: bold;
+          text-align: center;
+        }
+      `}</style>
 
             {/* Navigation Footer */}
             <div style={{

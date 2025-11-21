@@ -23,11 +23,14 @@ export const Navbar: React.FC = () => {
 
     return (
         <nav style={{
-            borderBottom: '1px solid var(--color-border)',
-            backgroundColor: 'var(--color-bg)',
+            borderBottom: '1px solid var(--glass-border)',
+            backgroundColor: 'var(--glass-bg)',
+            backdropFilter: 'blur(10px)',
+            WebkitBackdropFilter: 'blur(10px)',
             position: 'sticky',
             top: 0,
-            zIndex: 10
+            zIndex: 10,
+            transition: 'background-color var(--transition-normal), border-color var(--transition-normal)'
         }}>
             <div className="container" style={{
                 height: '64px',
